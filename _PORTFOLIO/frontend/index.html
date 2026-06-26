@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sagarika | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Use relative path for CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div class="loader-logo">
+      <h1>Sagarika</h1>
+    </div>
+    <div class="loader-spinner"></div>
+  </div>
+  
+  <!-- Dark Mode Toggle -->
+  <button class="toggle-btn" id="darkModeToggle">🌙</button>
+  
+  <!-- Header -->
+  <header>
+    <img src="https://miro.medium.com/v2/resize:fit:5002/1*vKbgWeoG68_lpfgxqt8rCA.jpeg" alt="Profile Picture" class="profile-img" />
+    <h1>Sagarika</h1>
+    <p>Computer Science Undergraduate • IIT Bhubaneswar</p>
+  </header>
+
+  <main>
+    <!-- About Me -->
+    <section class="reveal">
+      <h2 class="section-title">About Me</h2>
+      <p>I'm a 4th-year B.Tech student in Computer Science and Engineering at IIT Bhubaneswar with a CGPA of 6.77. My academic journey is backed by a strong 12th-grade performance (92.9%) and a perfect 10/10 in 10th grade. I'm passionate about building impactful tech — from ML-driven classifiers to full-stack dashboards. I've interned under Prof. Sukantha Panda, contributing to the AHRC research dashboard using Next.js, Twilio authentication, and real-time API integration. I enjoy solving problems, learning new tools, and collaborating on meaningful projects. Beyond code, I'm an active sportsperson and volunteer, always ready for a challenge.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="reveal">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><i class="fas fa-c"></i><div>C</div></div>
+        <div class="skill"><i class="fas fa-code"></i><div>C++</div></div>
+        <div class="skill"><i class="fab fa-python"></i><div>Python</div></div>
+        <div class="skill"><i class="fab fa-html5"></i><div>HTML</div></div>
+        <div class="skill"><i class="fab fa-css3-alt"></i><div>CSS</div></div>
+        <div class="skill"><i class="fab fa-js-square"></i><div>JavaScript</div></div>
+        <div class="skill"><i class="fab fa-react"></i><div>Next.js</div></div>
+        <div class="skill"><i class="fas fa-database"></i><div>MySQL</div></div>
+        <div class="skill"><i class="fas fa-code-branch"></i><div>Git</div></div>
+      </div>
+    </section>
+
+    <!-- Projects & Experience -->
+    <section class="reveal projects-section">
+      <h2 class="section-title">Projects & Experience</h2>
+      <div class="timeline">
+        <!-- Internship -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="project-content">
+            <h3>Research Intern – IIT Bhubaneswar</h3>
+            <p>
+              • Intern under Prof. Sukantha Panda (May 2025 – Jul 2025).<br>
+              • Collaborated in a 3-member team to develop the AHRC Research Dashboard using Next.js.<br>
+              • Built front-end UI and secure OTP-based login using Twilio.<br>
+              • Integrated real-time API communication for Tube Well Automation module.
+            </p>
+          </div>
+        </div>
+
+        <!-- Multi-Class Flower Species -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-leaf"></i></div>
+          <div class="project-content">
+            <h3>Multi-Class Flower Species Classification</h3>
+            <p>
+              • 24-class Indian flower classifier with 75.89% accuracy using Random Forest.<br>
+              • 563-dim feature vector: Gabor, LBP texture, HSV histograms.<br>
+              • End-to-end CV pipeline: Gaussian smoothing, contrast equalization, GridSearchCV (SVM), KNN, Logistic Regression.
+            </p>
+          </div>
+        </div>
+
+        <!-- TCP Congestion Control -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+          <div class="project-content">
+            <h3>TCP Congestion Control Simulation</h3>
+            <p>
+              • Simulated network traffic using Mininet and Python.<br>
+              • Analyzed RTT and performance of Tahoe, Reno, and Cubic.<br>
+              • Visualized results using Matplotlib.
+            </p>
+          </div>
+        </div>
+
+        <!-- Interactive Portfolio -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-globe"></i></div>
+          <div class="project-content">
+            <h3>Interactive Portfolio Website</h3>
+            <p>
+              • Personal portfolio with open-source LLM chatbot for Q&A.<br>
+              • Built with HTML, CSS, JS, Python (Flask), and Git version control.<br>
+              • Deployed online with responsive design.
+            </p>
+          </div>
+        </div>
+
+        <!-- Hospital Management System -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-hospital"></i></div>
+          <div class="project-content">
+            <h3>Hospital Management System</h3>
+            <p>
+              • Browser-based interface using HTML, CSS, JavaScript.<br>
+              • Backend logic using MySQL triggers and procedures.<br>
+              • Features: patient registration, appointments, test scheduling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="reveal">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        <div class="edu-item">
+          <h3>IIT Bhubaneswar</h3>
+          <p>B.Tech CSE (2022–2026) • CGPA: 6.77</p>
+        </div>
+        <div class="edu-item">
+          <h3>Intermediate (12th)</h3>
+          <p>Sri Chaitanya, TS • Percentage: 92.9% (2020–2022)</p>
+        </div>
+        <div class="edu-item">
+          <h3>10th Standard (SSC)</h3>
+          <p>Sri Chaitanya, TS • Grade: 10/10 (2020)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses & Responsibilities -->
+    <section class="reveal">
+      <h2 class="section-title">Courses & Responsibilities</h2>
+      <div class="two-col">
+        <div>
+          <h3>📚 Key Courses</h3>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>Operating System, DBMS, Computer Networks</li>
+            <li>Machine Learning, Network & System Security</li>
+            <li>Entrepreneurship & Business Management</li>
+          </ul>
+        </div>
+        <div>
+          <h3>🏅 Positions & Activities</h3>
+          <ul>
+            <li><strong>Associate – Wissenaire Fest</strong> (IIT Bhubaneswar) — Promoted events, engaged crowds, volunteered at workshops.</li>
+            <li><strong>Volunteer – NSS</strong> (National Service Scheme).</li>
+            <li><strong>Sports</strong> – NSO Badminton team; also play Volleyball, Throwball, Basketball, Lawn Tennis, Table Tennis.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="reveal">
+      <h2 class="section-title">Resume</h2>
+      <p>Download my detailed resume below:</p>
+      <a href="https://drive.google.com/file/d/1ykbS-efWufqiI_vbD4l-I9XJG3-0ZEjJ/view?usp=drive_link" download class="resume-btn">Download Resume</a>
+    </section>
+
+    <!-- Contact -->
+    <section class="reveal">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/sagarika-devarakonda-298125278/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/DEVARAKONDASAGARIKA" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:sagarikadevarakonda2004@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot-container">
+      <button id="chatbot-toggle">💬</button>
+      <div id="chatbot-window" class="hidden">
+        <div class="chatbot-header">
+          <span>Ask Me Anything!</span>
+          <button id="chatbot-close">&times;</button>
+        </div>
+        <div id="chatbot-messages">
+          <div class="chat-message chatbot">
+            <strong>Chatbot:</strong><br>
+            Hi! 👋 I'm Sagarika's AI assistant. Ask me about her skills, projects, experience, education, or anything about her portfolio!
+          </div>
+        </div>
+        <input type="text" id="chatbot-input" placeholder="Type a question..." />
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Sagarika. All rights reserved.
+  </footer>
+
+  <!-- Use relative path for JS -->
+  <script src="script.js"></script>
+</body>
+</html>
